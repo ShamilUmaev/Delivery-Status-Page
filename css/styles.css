@@ -14,6 +14,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+h2, h5, h6, a, button {
+    font-family: 'Montserrat';
+}
 .panel {
     position: relative;
     width: 350px;
@@ -27,4 +30,13 @@ body {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+.inner-container {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 55px 40px;
+}
+.inner-container > img {
+    width: 50%
 }
