@@ -26,6 +26,16 @@ h2, h5, h6, a, button {
     border-radius: 5px;
     z-index: 1;
 }
+.panel.center {
+    z-index: 9;
+    width: 380px;
+}
+.panel.left {
+    height: 80vh;
+}
+.panel.left {
+    margin-right: -15px;
+}
 #close-button {
     position: absolute;
     right: 10px;
@@ -95,6 +105,11 @@ h6.price {
     line-height: 18px;
     color: #FFFFFF;
     transition: 0.3s ease all;
+}
+.inaktive-btn {
+    background-color: #BDBDBD;
+    box-shadow: 0px 20px 20px rgba(167, 167, 167, 0.2);
+    margin-top: 100px;
 }
 .ready-btn {
     background-color: #46A67E;
