@@ -30,10 +30,10 @@ h2, h5, h6, a, button {
     z-index: 9;
     width: 380px;
 }
-.panel.left {
+.panel.left, .panel.right {
     height: 80vh;
 }
-.panel.left {
+.panel.left, .panel.right {
     margin-right: -15px;
 }
 #close-button {
