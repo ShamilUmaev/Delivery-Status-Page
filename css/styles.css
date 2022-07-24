@@ -54,5 +54,37 @@ h2, h5, h6, a, button {
     color: #828282;
     font-size: 0.9rem;
 }
+#food-section {
+    width: 100%;
+    display: flex;
+    background-color: #F0FFF5;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 30px 0 30px;
+    text-align: left;
+    border-radius: 5px;
+}
+h5.item {
+    font-weight: 800;
+    font-size: 0.9rem;
+    line-height: 17px;
+    color: #2F463D;
+    margin: 0 10px;
+}
+h6.price {
+    font-weight: 500;
+    font-size: 09.rem;
+    line-height: 17px;
+    color: #7A8F85;
+    margin: 0 10px;
+}
+#food-section a {
+    font-weight: 700;
+    font-size: 0.85rem;
+    line-height: 16px;
+    color: #467A66;
+    margin: 0 0 0 20px;
+}
+
 
 
