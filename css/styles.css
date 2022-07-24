@@ -23,3 +23,8 @@ body {
     border-radius: 5px;
     z-index: 1;
 }
+#close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
