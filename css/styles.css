@@ -40,3 +40,19 @@ h2, h5, h6, a, button {
 .inner-container > img {
     width: 50%
 }
+.inner-container h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #2F463D;
+    margin: 20px 0 10px 0;
+    height: 50px;
+}
+.inner-container p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    line-height: 26px;
+    color: #828282;
+    font-size: 0.9rem;
+}
+
+
