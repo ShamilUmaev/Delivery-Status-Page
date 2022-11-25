@@ -88,12 +88,12 @@ body, html {
     font-size: 1.3rem;
     color: #467A66;
 }
-#ready-btn {
+.all-btn {
     width: 90%;
     display: block;
-    margin: 4rem auto 6rem;
     padding: 2rem 0;
-    background: #46A67E;
+    margin: 7rem auto;
+    background: #BDBDBD;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
     border-radius: 5px;
@@ -101,9 +101,13 @@ body, html {
     font-size: 1.5rem;
     color: #FFFFFF;
     border: none;
+}
+.ready-btn {
+    margin: 4rem auto 0;
+    background: #46A67E;
     transition: .5s all;
 }
-#ready-btn:hover {
+.ready-btn:hover {
     cursor: pointer;
     opacity: .8;
     transition: .5s all;
