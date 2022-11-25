@@ -14,15 +14,14 @@ body, html {
 .outer-container {
     width: 100%;
     height: 100%;
-    /* max-width: 450px; */
     background-color: red;
     background-image: url('./images/ZigZag-Background.png');
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 }
 .panel {
     width: 400px;
@@ -33,6 +32,14 @@ body, html {
     border-radius: 5px;
     position: relative;
 }
+.panel:nth-of-type(1) {
+    height: 600px;
+    margin-right: -1.5rem;
+}
+.panel:nth-of-type(3) {
+    height: 600px;
+    margin-left: -1.5rem;
+}
 #close-btn {
     position: absolute;
     right: 1rem;
@@ -41,8 +48,9 @@ body, html {
 .inner-container {
     width: 100%;
 }
-.food-happy-img {
+.inner-container > img {
     display: block;
+    width: 35%;
     margin: 5rem auto 4rem;
 }
 .inner-container h2 {
@@ -61,7 +69,7 @@ body, html {
     margin: 1.5rem auto 5rem;
 }
 .selected-food {
-    width: 90%;
+    width: 80%;
     background-color: #F0FFF5;
     margin: 0 auto;
     display: flex;
@@ -89,13 +97,10 @@ body, html {
     color: #467A66;
 }
 .all-btn {
-    width: 90%;
+    width: 80%;
     display: block;
     padding: 2rem 0;
-    margin: 7rem auto;
-    background: #BDBDBD;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
+    box-shadow: 0px 20px 20px rgba(167, 167, 167, 0.2);
     border-radius: 5px;
     font-weight: 800;
     font-size: 1.5rem;
@@ -105,7 +110,12 @@ body, html {
 .ready-btn {
     margin: 4rem auto 0;
     background: #46A67E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition: .5s all;
+}
+.inactive-btn {
+    margin: 10rem auto;
+    background: #BDBDBD;
 }
 .ready-btn:hover {
     cursor: pointer;
@@ -138,7 +148,8 @@ body, html {
         display: block;
     }
     .panel:nth-of-type(2) {
-        margin: 0 20px;
+        width: 420px;
+        z-index: 3;
     }
 }
 
