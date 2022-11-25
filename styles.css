@@ -112,7 +112,10 @@ body, html {
     width: 15%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
 }
 .dot {
     height: 8px;
