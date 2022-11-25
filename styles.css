@@ -25,8 +25,9 @@ body, html {
     align-items: center;
 }
 .panel {
-    width: 90%;
-    height: 700px;
+    width: 350px;
+    min-width: 350px;
+    height: 650px;
     background-color: #ffffff;
     box-shadow: 0px 40px 40px -20px #3C7B61;
     border-radius: 5px;
@@ -36,6 +37,9 @@ body, html {
     position: absolute;
     right: 1rem;
     top: 1rem;
+}
+.inner-container {
+    width: 100%;
 }
 .food-happy-img {
     display: block;
@@ -84,3 +88,24 @@ body, html {
     font-size: 1.3rem;
     color: #467A66;
 }
+#ready-btn {
+    width: 90%;
+    display: block;
+    margin: 4rem auto 6rem;
+    padding: 2rem 0;
+    background: #46A67E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    border: none;
+    transition: .5s all;
+}
+#ready-btn:hover {
+    cursor: pointer;
+    opacity: .8;
+    transition: .5s all;
+}
+
