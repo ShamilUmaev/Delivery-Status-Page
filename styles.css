@@ -108,4 +108,18 @@ body, html {
     opacity: .8;
     transition: .5s all;
 }
-
+.dots-container {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #E0E0E0;
+}
+.selected-dot {
+    background-color: #67BD99;
+}
