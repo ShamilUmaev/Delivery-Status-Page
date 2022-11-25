@@ -5,30 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2 {
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 2.2rem;
-    color: #2F463D;
-    text-align: center;
-}
-p {
-    font-family: 'Ubuntu';
-    font-size: 1.4rem;
-    line-height: 2.6rem;
-    color: #828282;
-    text-align: center;
-    width: 80%;
-    margin: 2rem auto;
-}
 body, html {
     height: 100vh;
     width: 100%;
     font-size: 62.5%;
+    font-family: 'Montserrat';
 }
 .outer-container {
     width: 100%;
     height: 100%;
+    max-width: 450px;
     background-color: red;
     background-image: url('./images/ZigZag-Background.png');
     background-repeat: no-repeat;
@@ -54,4 +40,47 @@ body, html {
 .food-happy-img {
     display: block;
     margin: 5rem auto 4rem;
+}
+.inner-container h2 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #2F463D;
+    text-align: center;
+}
+.inner-container p {
+    font-family: 'Ubuntu';
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #828282;
+    text-align: center;
+    width: 80%;
+    margin: 1.5rem auto 5rem;
+}
+.selected-food {
+    width: 90%;
+    background-color: #F0FFF5;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.food-name-price {
+    width: 50%;
+    margin-left: 2rem;
+}
+.food-name {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: #2F463D;
+    margin-bottom: .5rem;
+}
+.food-price {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #7A8F85;
+}
+.selected-food a {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #467A66;
 }
