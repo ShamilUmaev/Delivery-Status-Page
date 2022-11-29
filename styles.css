@@ -43,7 +43,7 @@ body, html {
     height: 600px;
     margin-left: -1.5rem;
 }
-#close-btn {
+.close-btn {
     position: absolute;
     right: 1rem;
     top: 1rem;
@@ -143,11 +143,11 @@ body, html {
 .selected-dot {
     background-color: #67BD99;
 }
-.hide-panel {
+.desktop-only {
     display: none;
 }
 @media only screen and (min-width: 992px) {
-    .hide-panel {
+    .desktop-only {
         display: block;
     }
     .panel:nth-of-type(2) {
